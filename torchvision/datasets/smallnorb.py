@@ -12,7 +12,7 @@ else:
     import pickle
 
 import torch.utils.data as data
-from torchvision.datasets.utils import download_url, check_integrity
+from .utils import download_url, check_integrity
 
 class smallNORB(data.Dataset):
     """`small NORB <https://cs.nyu.edu/~ylclab/data/norb-v1.0-small/>`_ Dataset.
